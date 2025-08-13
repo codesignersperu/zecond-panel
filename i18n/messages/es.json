@@ -1,0 +1,785 @@
+{
+	"common": {
+		"cancel": "Cancelar",
+		"create": "Crear",
+		"creating": "Creando...",
+		"save": "Guardar",
+		"saving": "Guardando...",
+		"delete": "Eliminar",
+		"deleting": "Eliminando...",
+		"confirm": "Confirmar",
+		"action-not-reversed": "Esta acción no se puede revertir",
+		"filters": "Filtros",
+		"clear": "Limpiar",
+		"success": "Éxito",
+		"error": "Error",
+		"search": "Buscar",
+		"loading": "Cargando...",
+		"collapse": "Colapsar",
+		"expand": "Expandir",
+		"all": "Todos",
+		"select": "Seleccionar",
+		"close": "Cerrar",
+		"update": "Actualizar",
+		"updating": "Actualizando...",
+		"actions": "Acciones",
+		"refresh": "Actualizar",
+		"copiedSuccessfully": "Copiado con éxito",
+		"copiedFailed": "Error al copiar",
+		"edit": "Editar",
+		"config": "Configuración",
+		"go-back": "Volver",
+		"total": "Total",
+		"approve": "Aprobar",
+		"reject": "Rechazar"
+	},
+	"navigation": {
+		"dashboard": "Tablero",
+		"admins": "Administradores",
+		"users": "Usuarios",
+		"products": "Productos",
+		"promotion-codes": "Códigos de promoción",
+		"orders": "Pedidos",
+		"subscriptions": "Suscripciones",
+		"logout": "Cerrar sesión",
+		"withdrawal-requests": "Solicitudes de Retiro",
+		"storeConfiguration": "Configuración de la tienda",
+		"auditLogs": "Registros de auditoría"
+	},
+	"login": {
+		"title": "Iniciar sesión en el panel Zecond",
+		"email": "Correo electrónico",
+		"emailPlaceholder": "Introduce tu correo electrónico",
+		"password": "Contraseña",
+		"passwordPlaceholder": "Introduce tu contraseña",
+		"submit": "Iniciar sesión",
+		"rememberMe": "Recuérdame",
+		"forgotPassword": "¿Olvidaste tu contraseña?",
+		"errors": {
+			"emailRequired": "Correo electrónico es obligatorio",
+			"emailInvalid": "Por favor, introduce un correo electrónico válido",
+			"passwordRequired": "Contraseña es obligatoria",
+			"passwordMinLength": "La contraseña debe tener al menos 6 caracteres",
+			"invalidCredentials": "Correo electrónico o contraseña inválidos"
+		}
+	},
+	"dashboard": {
+		"title": "Tablero",
+		"welcome": "Bienvenido al panel de administración de Zecond",
+		"description": "Administra tu mercado desde este tablero central.",
+		"stats": {
+			"totalUsers": "Total de usuarios",
+			"totalProducts": "Total de productos",
+			"totalOrders": "Total de pedidos",
+			"revenue": "Ingresos"
+		},
+		"admins": "Administradores",
+		"users": "Usuarios",
+		"recentActivity": "Actividad reciente",
+		"totalAdmins": "Total de administradores en el sistema",
+		"latestActions": "Últimas acciones realizadas en el sistema",
+		"noActivity": "No hay actividad reciente para mostrar",
+		"loading": "Cargando..."
+	},
+	"theme": {
+		"light": "Claro",
+		"dark": "Oscuro",
+		"system": "Sistema",
+		"toggleTheme": "Cambiar tema"
+	},
+	"admin": {
+		"title": "Administradores",
+		"description": "Gestiona cuentas y permisos de administradores.",
+		"addAdmin": "Agregar administrador",
+		"addAdminDescription": "Crear una nueva cuenta de administrador",
+		"deleteAdmin": "Eliminar administrador",
+		"deleteAdminConfirmation": "¿Estás seguro de que deseas eliminar a este administrador? Esta acción no se puede deshacer.",
+		"name": "Nombre",
+		"namePlaceholder": "Introduce el nombre del administrador",
+		"email": "Correo electrónico",
+		"emailPlaceholder": "Introduce el correo electrónico del administrador",
+		"password": "Contraseña",
+		"passwordPlaceholder": "Introduce la contraseña del administrador",
+		"createdAt": "Creado en",
+		"actions": "Acciones",
+		"edit": "Editar",
+		"delete": "Eliminar",
+		"noAdmins": "No se encontraron administradores",
+		"itemsName": "administradores",
+		"noPermission": "No tienes permiso para realizar esta acción.",
+		"errors": {
+			"nameRequired": "El nombre es obligatorio",
+			"emailRequired": "El correo electrónico es obligatorio",
+			"emailInvalid": "Por favor, introduce un correo electrónico válido",
+			"passwordRequired": "La contraseña es obligatoria",
+			"passwordMinLength": "La contraseña debe tener al menos 6 caracteres"
+		},
+		"table": {
+			"name": "Nombre",
+			"email": "Correo electrónico",
+			"role": "Rol",
+			"permissions": "Permisos",
+			"createdAt": "Creado",
+			"actions": "Acciones"
+		}
+	},
+	"users": {
+		"title": "Usuarios",
+		"description": "Gestiona cuentas y permisos de usuarios.",
+		"user": "Usuario",
+		"username": "Nombre de usuario",
+		"email": "Correo electrónico",
+		"influencer": "Influencer",
+		"noUsers": "No se encontraron usuarios",
+		"noSearchResults": "No se encontraron usuarios que coincidan con tu búsqueda",
+		"searchPlaceholder": "Buscar usuarios por nombre, nombre de usuario o correo electrónico...",
+		"forSearch": "para búsqueda",
+		"statusUpdated": "Estado actualizado",
+		"influencerStatusUpdated": "El estado de influencer del usuario ha sido actualizado",
+		"failedToUpdateStatus": "Error al actualizar el estado de influencer",
+		"itemsName": "Usuarios",
+		"table": {
+			"name": "Nombre",
+			"email": "Correo electrónico",
+			"role": "Rol",
+			"status": "Estado",
+			"createdAt": "Creado",
+			"actions": "Acciones"
+		}
+	},
+	"userDetail": {
+		"invalidId": "Por favor proporcione un ID numérico correcto del usuario",
+		"loadError": "Error al cargar los detalles del usuario",
+		"noData": "No hay datos de usuario disponibles",
+		"influencer": "Influencer",
+		"balance": "Saldo",
+		"availableBalance": "Disponible",
+		"lockedBalance": "Bloqueado",
+		"sendMessage": "Enviar mensaje",
+		"addresses": "Direcciones",
+		"userAddresses": "Direcciones del usuario",
+		"userAddressesDescription": "Lista de todas las direcciones asociadas con este usuario",
+		"noAddresses": "No se encontraron direcciones para este usuario",
+		"primary": "Principal",
+		"table": {
+			"recipient": "Destinatario",
+			"address": "Dirección",
+			"phone": "Teléfono",
+			"status": "Estado",
+			"primary": "Principal"
+		},
+		"tabs": {
+			"products": "Productos",
+			"sales": "Ventas",
+			"subscription": "Suscripción",
+			"withdrawal": "Solicitudes de retiro",
+			"productsContent": "Los productos del usuario se mostrarán aquí",
+			"salesContent": "Las ventas del usuario se mostrarán aquí",
+			"subscriptionContent": "Los detalles de suscripción del usuario se mostrarán aquí",
+			"withdrawalContent": "Las solicitudes de retiro del usuario se mostrarán aquí"
+		}
+	},
+	"products": {
+		"title": "Productos",
+		"description": "Gestiona listados de productos e inventario.",
+		"product": "Producto",
+		"seller": "Vendedor",
+		"category": "Categoría",
+		"price": "Precio",
+		"condition": "Condición",
+		"status": "Estado",
+		"premium": "Premium",
+		"createdAt": "Creado",
+		"actions": "Acciones",
+		"auction": "Subasta",
+		"noProducts": "No se encontraron productos",
+		"itemsName": "productos",
+		"openActions": "Abrir acciones",
+		"editProduct": "Editar producto",
+		"editProductDescription": "Actualizar configuraciones y preferencias del producto.",
+		"premiumStatus": "Estado premium",
+		"premiumStatusDescription": "Marca este producto como premium para darle visibilidad especial.",
+		"addProduct": "Agregar producto",
+		"addDescription": "Crear un nuevo listado de productos.",
+		"editOtherDetails": "Editar otros detalles",
+		"featuredStatus": "Estado destacado",
+		"featuredStatusDescription": "Marca este producto como destacado para darle visibilidad especial.",
+		"loadError": "Error al cargar productos",
+		"sizeMeasurements": "Medidas de talla",
+		"sizeMeasurementsDescription": "Medidas detalladas para",
+		"size": "Talla",
+		"height": "Altura",
+		"chest": "Pecho",
+		"waist": "Cintura",
+		"hips": "Caderas",
+		"basePrice": "Precio base",
+		"highestBid": "Oferta más alta",
+		"featured": "Destacado",
+		"conditions": {
+			"new": "Nuevo",
+			"like_new": "Como nuevo",
+			"excellent": "Excelente",
+			"very_good": "Muy bueno",
+			"good": "Bueno",
+			"fair": "Regular",
+			"poor": "Pobre",
+			"used": "Usado"
+		},
+		"statuses": {
+			"draft": "Borrador",
+			"pending_approval": "Pendiente de aprobación",
+			"live": "Activo",
+			"auction_ended": "Subasta terminada",
+			"sold": "Vendido",
+			"archived": "Archivado"
+		},
+		"table": {
+			"image": "Imagen",
+			"title": "Título",
+			"category": "Categoría",
+			"size": "Talla",
+			"color": "Color",
+			"condition": "Condición",
+			"price": "Precio",
+			"type": "Tipo",
+			"status": "Estado",
+			"created": "Creado"
+		}
+	},
+	"orders": {
+		"title": "Pedidos",
+		"description": "Gestionar pedidos de clientes y rastrear su estado.",
+		"noOrders": "No se encontraron pedidos",
+		"itemNames": "pedidos",
+		"updateOrder": "Actualizar pedido",
+		"updateOrderDescription": "Actualizar el estado e información de envío del pedido",
+		"loading-error": "Error al cargar los pedidos",
+		"table": {
+			"orderId": "ID del pedido",
+			"buyerId": "ID del comprador",
+			"total": "Total",
+			"status": "Estado",
+			"paymentStatus": "Estado del pago",
+			"shippingCost": "Costo de envío",
+			"createdAt": "Creado en"
+		},
+		"status": {
+			"pending": "Pendiente",
+			"processingPayment": "Procesando pago",
+			"placed": "Realizado",
+			"processing": "Procesando",
+			"shipped": "Enviado",
+			"canceled": "Cancelado",
+			"onHold": "En espera",
+			"completed": "Completado",
+			"unknown": "Desconocido"
+		},
+		"paymentStatus": {
+			"processing": "Procesando",
+			"paid": "Pagado",
+			"failed": "Fallido",
+			"refunded": "Reembolsado",
+			"unpaid": "Sin pagar",
+			"unknown": "Desconocido"
+		},
+		"form": {
+			"status": {
+				"label": "Estado del pedido",
+				"placeholder": "Seleccionar estado del pedido",
+				"pending": "Pendiente",
+				"processingPayment": "Procesando pago",
+				"placed": "Realizado",
+				"processing": "Procesando",
+				"shipped": "Enviado",
+				"canceled": "Cancelado",
+				"onHold": "En espera",
+				"completed": "Completado"
+			},
+			"paymentStatus": {
+				"label": "Estado del pago",
+				"placeholder": "Seleccionar estado del pago",
+				"processing": "Procesando",
+				"paid": "Pagado",
+				"failed": "Fallido",
+				"refunded": "Reembolsado",
+				"unpaid": "Sin pagar"
+			},
+			"shippingCarrier": {
+				"label": "Transportista",
+				"placeholder": "Ingrese transportista (ej. FedEx, UPS, DHL)"
+			},
+			"trackingUrl": {
+				"label": "URL de seguimiento",
+				"placeholder": "Ingrese URL de seguimiento del envío"
+			}
+		}
+	},
+	"sales": {
+		"loadError": "Error al cargar datos de ventas",
+		"noSales": "No se encontraron ventas para este usuario",
+		"itemNames": "ventas",
+		"filters": {
+			"title": "Filtros",
+			"status": {
+				"placeholder": "Todos los estados",
+				"all": "Todos los estados"
+			}
+		},
+		"status": {
+			"pending": "Pendiente",
+			"processing": "Procesando",
+			"pendingClearance": "Pendiente de autorización",
+			"succeeded": "Exitoso",
+			"failed": "Fallido",
+			"paymentFailed": "Pago fallido",
+			"cancelled": "Cancelado",
+			"refunded": "Reembolsado",
+			"rejected": "Rechazado"
+		},
+		"table": {
+			"id": "ID",
+			"orderId": "ID de Pedido",
+			"productId": "ID de Producto",
+			"userId": "ID de Usuario",
+			"amount": "Cantidad",
+			"status": "Estado",
+			"created": "Creado",
+			"actions": "Acciones"
+		}
+	},
+	"withdrawals": {
+		"loadError": "Error al cargar solicitudes de retiro",
+		"noWithdrawals": "No se encontraron solicitudes de retiro",
+		"itemNames": "solicitudes de retiro",
+		"filters": {
+			"title": "Filtros",
+			"status": {
+				"placeholder": "Todos los estados",
+				"all": "Todos los estados"
+			}
+		},
+		"status": {
+			"pending": "Pendiente",
+			"processing": "Procesando",
+			"pendingClearance": "Pendiente de autorización",
+			"succeeded": "Exitoso",
+			"failed": "Fallido",
+			"paymentFailed": "Pago fallido",
+			"cancelled": "Cancelado",
+			"refunded": "Reembolsado",
+			"rejected": "Rechazado"
+		},
+		"table": {
+			"amount": "Cantidad",
+			"status": "Estado",
+			"created": "Creado"
+		}
+	},
+	"subscriptions": {
+		"title": "Suscripciones",
+		"description": "Gestiona suscripciones de usuarios y facturación.",
+		"id": "ID",
+		"user": "Usuario",
+		"userId": "ID de usuario",
+		"plan": "Plan",
+		"payment": "Pago",
+		"listings": "Listados",
+		"created": "Creado",
+		"status": "Estado",
+		"paymentStatus": "Estado de pago",
+		"listingsRemaining": "Listados restantes",
+		"auctions": "Subastas",
+		"featured": "Destacado",
+		"premium": "Premium",
+		"nextRenewal": "Próxima renovación",
+		"createdAt": "Creado",
+		"noSubscriptions": "No se encontraron suscripciones",
+		"comingSoon": "Las funciones de gestión de suscripciones se agregarán aquí.",
+		"errorLoading": "Error al cargar suscripciones",
+		"showing": "Mostrando",
+		"of": "de",
+		"subscriptions": "suscripciones",
+		"page": "Página",
+		"unlimited": "Ilimitado",
+		"itemsName": "suscripciones"
+	},
+	"storeConfiguration": {
+		"title": "Configuración de tienda",
+		"description": "Ver y gestionar la configuración y ajustes de tu tienda.",
+		"loadError": "Error al cargar la configuración de la tienda",
+		"noData": "No hay datos de configuración de tienda disponibles",
+		"updateSuccess": "Configuración de tienda actualizada exitosamente",
+		"auctionCommission": "Comisión de subasta",
+		"auctionCommissionDescription": "Porcentaje de comisión cobrado en ventas de subastas",
+		"deliveryFee": "Tarifa de entrega",
+		"deliveryFeeDescription": "Tarifa de entrega estándar cobrada a los clientes",
+		"withdrawalLimits": "Límites de Retiro",
+		"withdrawalLimitsDescription": "Establezca los montos mínimo y máximo de retiro para su tienda.",
+		"minimumWithdrawalAmount": "Monto Mínimo de Retiro",
+		"maximumWithdrawalAmount": "Monto Máximo de Retiro",
+		"banners": "Banners de la tienda",
+		"bannersDescription": "Banners activos mostrados en tu tienda",
+		"banner": "Banner",
+		"imageLoadError": "Error al cargar la imagen",
+		"noBanners": "No hay banners configurados",
+		"addBanner": "Agregar banner",
+		"addBannerDescription": "Subir una nueva imagen de banner y establecer su URL de enlace",
+		"desktopBanners": "Banners de escritorio",
+		"mobileBanners": "Banners móviles",
+		"desktopBanner": "Banner de escritorio",
+		"mobileBanner": "Banner móvil",
+		"desktopBannersDescription": "Banners mostrados en escritorio y pantallas más grandes",
+		"mobileBannersDescription": "Banners mostrados en móvil y pantallas más pequeñas",
+		"updateBannerOrder": "Actualizar orden de banners",
+		"form": {
+			"image": {
+				"label": "Imagen del banner",
+				"selected": "Seleccionado"
+			},
+			"linkUrl": {
+				"label": "URL de enlace",
+				"placeholder": "Ingrese la URL a la que debe enlazar este banner"
+			}
+		},
+		"table": {
+			"banner": "Banner",
+			"image": "Imagen",
+			"linkUrl": "URL de enlace",
+			"actions": "Acciones",
+			"visit": "Visitar"
+		}
+	},
+	"brands": {
+		"title": "Marcas",
+		"description": "Gestiona las marcas disponibles para productos.",
+		"addBrand": "Agregar marca",
+		"addBrandDescription": "Crear una nueva marca con nombre e imagen",
+		"editBrand": "Editar marca",
+		"editBrandDescription": "Actualizar el nombre de la marca",
+		"deleteBrand": "Eliminar marca",
+		"deleteBrandConfirmation": "¿Estás seguro de que deseas eliminar esta marca? Esta acción no se puede deshacer.",
+		"name": "Nombre",
+		"newName": "Nuevo nombre de la marca",
+		"namePlaceholder": "Introduce el nombre de la marca",
+		"image": "Imagen de la marca",
+		"uploadImage": "Haz clic para subir la imagen de la marca",
+		"actions": "Acciones",
+		"edit": "Editar",
+		"delete": "Eliminar",
+		"noBrands": "No se encontraron marcas"
+	},
+	"categories": {
+		"title": "Categorías y subcategorías",
+		"description": "Gestiona las categorías de productos y sus subcategorías.",
+		"addCategory": "Agregar categoría",
+		"addCategoryDescription": "Crear una nueva categoría de producto",
+		"editCategory": "Editar categoría",
+		"editCategoryDescription": "Actualizar el nombre de la categoría",
+		"deleteCategory": "Eliminar categoría",
+		"deleteCategoryConfirmation": "¿Estás seguro de que deseas eliminar esta categoría? Esta acción no se puede deshacer.",
+		"deleteWarning": "Advertencia: Esto también eliminará todas las subcategorías de esta categoría.",
+		"category": "Categoría",
+		"name": "Nombre",
+		"newName": "Nuevo nombre de la categoría",
+		"namePlaceholder": "Introduce el nombre de la categoría",
+		"subcategories": "Subcategorías",
+		"noSubcategories": "No hay subcategorías",
+		"actions": "Acciones",
+		"edit": "Editar",
+		"delete": "Eliminar",
+		"noCategories": "No se encontraron categorías"
+	},
+	"subcategories": {
+		"addSubcategory": "Agregar subcategoría",
+		"addSubcategoryDescription": "Crear una nueva subcategoría bajo una categoría",
+		"editSubcategory": "Editar subcategoría",
+		"editSubcategoryDescription": "Actualizar el nombre de la subcategoría",
+		"deleteSubcategory": "Eliminar subcategoría",
+		"deleteSubcategoryConfirmation": "¿Estás seguro de que deseas eliminar esta subcategoría? Esta acción no se puede deshacer.",
+		"category": "Categoría",
+		"selectCategory": "Seleccionar una categoría",
+		"name": "Nombre",
+		"newName": "Nuevo nombre de la subcategoría",
+		"namePlaceholder": "Introduce el nombre de la subcategoría",
+		"inCategory": "en",
+		"icon": "Icono",
+		"selectIcon": "Seleccionar icono",
+		"currentName": "Nombre actual",
+		"newNamePlaceholder": "Introduce el nuevo nombre de la subcategoría"
+	},
+	"subscriptionPlans": {
+		"title": "Planes de suscripción",
+		"description": "Gestiona planes de suscripción y sus características.",
+		"editPlan": "Editar plan de suscripción",
+		"editPlanDescription": "Actualizar detalles y características del plan de suscripción",
+		"plan": "Plan",
+		"subtitle": "Subtítulo",
+		"price": "Precio",
+		"listingsLimit": "Límite de listados",
+		"auctionsAllowed": "Subastas permitidas",
+		"featuredProductsAllowed": "Productos destacados permitidos",
+		"premiumProductsAllowed": "Productos premium permitidos",
+		"stripePriceId": "ID de precio de Stripe",
+		"features": "Características",
+		"auctions": "Subastas",
+		"featured": "Destacado",
+		"premium": "Premium",
+		"actions": "Acciones",
+		"edit": "Editar",
+		"noPlans": "No se encontraron planes de suscripción"
+	},
+	"auditLogs": {
+		"admin": "Administrador",
+		"table": "Tabla",
+		"heading": "Registros de auditoría",
+		"operation": "Operación",
+		"executedAt": "Ejecutado en",
+		"actions": "Acciones",
+		"showDiff": "Mostrar diferencia",
+		"recordId": "ID de registro",
+		"selectAdmin": "Seleccionar administrador",
+		"selectTable": "Seleccionar tabla",
+		"selectOperation": "Seleccionar operación",
+		"timeFrame": "Marco de tiempo",
+		"itemsName": "Registros de auditoría",
+		"operations": {
+			"CREATE": "Crear",
+			"UPDATE": "Actualizar",
+			"DELETE": "Eliminar"
+		},
+		"timeFrames": {
+			"today": "Hoy",
+			"yesterday": "Ayer",
+			"last-week": "La semana pasada",
+			"last-month": "El mes pasado"
+		},
+		"tables": {
+			"admins": "Administradores",
+			"users": "Usuarios",
+			"categories": "Categorías",
+			"subcategories": "Subcategorías",
+			"brands": "Marcas",
+			"products": "Productos",
+			"colors": "Colores",
+			"subscription_plans": "Planes de suscripción",
+			"orders": "Pedidos",
+			"reviews": "Reseñas"
+		},
+		"diffModal": {
+			"title": "Detalles del registro de auditoría",
+			"recordId": "ID de registro",
+			"beforeValue": "Antes",
+			"afterValue": "Después",
+			"noDataBefore": "Sin datos (registro nuevo)",
+			"noDataAfter": "Sin datos (registro eliminado)",
+			"close": "Cerrar"
+		},
+		"noLogs": "No hay actividad reciente para mostrar.",
+		"loadingLogs": "Cargando actividad reciente..."
+	},
+	"auth": {
+		"login": "Iniciar sesión",
+		"email": "Correo electrónico",
+		"password": "Contraseña",
+		"loginButton": "Iniciar sesión",
+		"invalidCredentials": "Correo electrónico o contraseña inválidos",
+		"loginError": "Ocurrió un error durante el inicio de sesión"
+	},
+	"colors": {
+		"title": "Colores",
+		"description": "Gestiona los colores disponibles para productos.",
+		"addColorDescription": "Agrega un nuevo color a la configuración de tu tienda.",
+		"colorCreated": "Color creado",
+		"colorCreatedDescription": "El color ha sido creado con éxito.",
+		"addColor": "Agregar color",
+		"noResultsFound": "No se encontraron colores que coincidan con tu búsqueda",
+		"noColors": "No hay colores disponibles",
+		"name": "Nombre",
+		"color": "Color",
+		"hexCode": "Código hexadecimal",
+		"searchPlaceholder": "Buscar colores...",
+		"errorLoading": "Error al cargar colores",
+		"editColor": "Editar color",
+		"editColorDescription": "Actualiza la información del color.",
+		"namePlaceholder": "Introduce el nombre del color",
+		"editNamePlaceholder": "Introduce el nombre del color",
+		"preview": "Vista previa",
+		"colorUpdated": "Color actualizado",
+		"colorUpdatedDescription": "El color ha sido actualizado con éxito.",
+		"nameRequired": "El nombre es obligatorio",
+		"deleteColor": "Eliminar color",
+		"deleteColorConfirmation": "¿Estás seguro de que deseas eliminar este color?",
+		"deleteColorWarning": "Esta acción no se puede deshacer.",
+		"colorDeleted": "Color eliminado",
+		"colorDeletedDescription": "El color ha sido eliminado con éxito."
+	},
+	"promotionCodes": {
+		"title": "Códigos de promoción",
+		"description": "Gestiona códigos de promoción y cupones de descuento para tu tienda.",
+		"noPromotionCodes": "No se encontraron códigos de promoción",
+		"summary": "Mostrando {total} códigos de promoción ({active} activos, {expired} expirados)",
+		"addPromotionCode": "Agregar código de promoción",
+		"addPromotionCodeDescription": "Crear un nuevo código de promoción para un cupón existente.",
+		"createSuccess": "Código de promoción creado con éxito",
+		"updateSuccess": "Código de promoción actualizado con éxito",
+		"table": {
+			"code": "Código",
+			"coupon": "Cupón",
+			"discount": "Descuento",
+			"usage": "Uso",
+			"status": "Estado",
+			"created": "Creado",
+			"expires": "Expira",
+			"redeemed": "canjeado",
+			"noExpiry": "Sin expiración",
+			"active": "Activo",
+			"toggleActive": "Alternar estado activo"
+		},
+		"status": {
+			"active": "Activo",
+			"inactive": "Inactivo",
+			"expired": "Expirado",
+			"exhausted": "Agotado"
+		},
+		"filters": {
+			"title": "Filtros",
+			"status": {
+				"label": "Estado",
+				"placeholder": "Todos los estados",
+				"all": "Todos los estados"
+			},
+			"code": {
+				"label": "Código de promoción",
+				"placeholder": "Introduce el código de promoción..."
+			},
+			"coupon": {
+				"label": "ID del cupón",
+				"placeholder": "Introduce el ID del cupón..."
+			},
+			"createdAfter": {
+				"label": "Creado después"
+			},
+			"createdBefore": {
+				"label": "Creado antes"
+			}
+		},
+		"form": {
+			"coupon": {
+				"label": "ID del cupón",
+				"placeholder": "Introduce el ID del cupón..."
+			},
+			"code": {
+				"label": "Código de promoción",
+				"placeholder": "Introduce un código personalizado o deja en blanco para autogenerar",
+				"note": "Deja en blanco para autogenerar un código único"
+			},
+			"active": {
+				"label": "Estado"
+			},
+			"appliesTo": {
+				"label": "Aplica a",
+				"all": "Todos",
+				"products": "Productos",
+				"subscriptions": "Suscripciones"
+			},
+			"maxRedemptions": {
+				"label": "Máximo de redenciones",
+				"placeholder": "Introduce el número máximo de usos",
+				"note": "Deja en blanco para usos ilimitados"
+			},
+			"expiresAt": {
+				"label": "Expira en",
+				"note": "Deja en blanco para sin expiración"
+			},
+			"firstTimeTransaction": {
+				"label": "Solo para clientes primerizos"
+			},
+			"minimumAmount": {
+				"label": "Monto mínimo ($)",
+				"placeholder": "Introduce el monto mínimo del pedido",
+				"note": "Monto mínimo requerido para usar este código"
+			}
+		}
+	},
+	"coupons": {
+		"title": "Cupones",
+		"description": "Gestiona cupones de descuento para tu tienda.",
+		"noCoupons": "No se encontraron cupones",
+		"summary": "Mostrando {total} cupones ({active} activos, {inactive} inactivos)",
+		"addCoupon": "Agregar cupón",
+		"addCouponDescription": "Crear un nuevo cupón de descuento para tu tienda.",
+		"updateCoupon": "Actualizar cupón",
+		"updateCouponDescription": "Actualizar el nombre del cupón. No se pueden modificar otras propiedades.",
+		"updateSuccess": "Cupón actualizado con éxito",
+		"table": {
+			"id": "ID",
+			"name": "Nombre",
+			"discount": "Descuento",
+			"duration": "Duración",
+			"usage": "Uso",
+			"status": "Estado",
+			"created": "Creado",
+			"redeemed": "canjeado"
+		},
+		"filters": {
+			"title": "Filtros",
+			"createdAfter": {
+				"label": "Creado después"
+			},
+			"createdBefore": {
+				"label": "Creado antes"
+			}
+		},
+		"form": {
+			"id": {
+				"label": "ID del cupón",
+				"placeholder": "Introduce un ID único para el cupón...",
+				"readOnlyNote": "El ID del cupón no se puede cambiar"
+			},
+			"name": {
+				"label": "Nombre del cupón",
+				"placeholder": "Introduce el nombre del cupón..."
+			},
+			"discountType": {
+				"label": "Tipo de descuento",
+				"placeholder": "Selecciona el tipo de descuento",
+				"percent": "Porcentaje",
+				"amount": "Cantidad fija"
+			},
+			"amount": {
+				"labelPercent": "Porcentaje (%)",
+				"labelAmount": "Cantidad ($)",
+				"placeholderPercent": "Introduce el porcentaje (1-100)",
+				"placeholderAmount": "Introduce la cantidad en dólares"
+			},
+			"duration": {
+				"label": "Duración",
+				"placeholder": "Selecciona la duración",
+				"once": "Una vez",
+				"repeating": "Repetitivo",
+				"forever": "Para siempre"
+			},
+			"durationInMonths": {
+				"label": "Duración (meses)",
+				"placeholder": "Introduce el número de meses (1-12)"
+			},
+			"currentDiscount": {
+				"label": "Descuento actual",
+				"note": "La cantidad y el tipo de descuento no se pueden cambiar"
+			},
+			"currentDuration": {
+				"label": "Duración actual",
+				"note": "La configuración de duración no se puede cambiar"
+			}
+		}
+	},
+	"pagination": {
+		"prev": "Anterior",
+		"next": "Siguiente",
+		"page": "Página",
+		"showing": "Mostrando",
+		"of": "de",
+		"to": "a",
+		"total": "total"
+	}
+}

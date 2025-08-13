@@ -1,0 +1,787 @@
+{
+	"common": {
+		"cancel": "Cancel",
+		"create": "Create",
+		"creating": "Creating...",
+		"save": "Save",
+		"saving": "Saving...",
+		"delete": "Delete",
+		"deleting": "Deleting...",
+		"confirm": "Confirm",
+		"action-not-reversed": "This action cannot be reversed",
+		"filters": "Filters",
+		"clear": "Clear",
+		"success": "Success",
+		"error": "Error",
+		"search": "Search",
+		"loading": "Loading...",
+		"collapse": "Collapse",
+		"expand": "Expand",
+		"all": "All",
+		"select": "Select",
+		"close": "Close",
+		"update": "Update",
+		"updating": "Updating...",
+		"actions": "Actions",
+		"refresh": "Refresh",
+		"copiedSuccessfully": "Copied Successfully",
+		"copiedFailed": "Failed to Copy",
+		"edit": "Edit",
+		"config": "Configuration",
+		"go-back": "Go Back",
+		"total": "Total",
+		"approve": "Approve",
+		"reject": "Reject"
+	},
+	"navigation": {
+		"dashboard": "Dashboard",
+		"admins": "Admins",
+		"users": "Users",
+		"products": "Products",
+		"promotion-codes": "Promotion Codes",
+		"orders": "Orders",
+		"subscriptions": "Subscriptions",
+		"logout": "Logout",
+		"withdrawal-requests": "Withdrawal Requests",
+		"storeConfiguration": "Store Configuration",
+		"auditLogs": "Audit Logs"
+	},
+	"login": {
+		"title": "Login to Zecond Panel",
+		"email": "Email",
+		"emailPlaceholder": "Enter your email",
+		"password": "Password",
+		"passwordPlaceholder": "Enter your password",
+		"submit": "Sign In",
+		"rememberMe": "Remember me",
+		"forgotPassword": "Forgot password?",
+		"errors": {
+			"emailRequired": "Email is required",
+			"emailInvalid": "Please enter a valid email",
+			"passwordRequired": "Password is required",
+			"passwordMinLength": "Password must be at least 6 characters",
+			"invalidCredentials": "Invalid email or password"
+		}
+	},
+	"dashboard": {
+		"title": "Dashboard",
+		"welcome": "Welcome to Zecond Admin Panel",
+		"description": "Manage your marketplace from this central dashboard.",
+		"stats": {
+			"totalUsers": "Total Users",
+			"totalProducts": "Total Products",
+			"totalOrders": "Total Orders",
+			"revenue": "Revenue"
+		},
+		"admins": "Admins",
+		"users": "Users",
+		"recentActivity": "Recent Activity",
+		"totalAdmins": "Total administrators in the system",
+		"latestActions": "Latest actions performed in the system",
+		"noActivity": "No recent activity to display",
+		"loading": "Loading..."
+	},
+	"theme": {
+		"light": "Light",
+		"dark": "Dark",
+		"system": "System",
+		"toggleTheme": "Toggle theme"
+	},
+	"admin": {
+		"title": "Admins",
+		"description": "Manage administrator accounts and permissions.",
+		"addAdmin": "Add Admin",
+		"addAdminDescription": "Create a new administrator account",
+		"deleteAdmin": "Delete Admin",
+		"deleteAdminConfirmation": "Are you sure you want to delete this admin? This action cannot be undone.",
+		"name": "Name",
+		"namePlaceholder": "Enter admin name",
+		"email": "Email",
+		"emailPlaceholder": "Enter admin email",
+		"password": "Password",
+		"passwordPlaceholder": "Enter admin password",
+		"createdAt": "Created At",
+		"actions": "Actions",
+		"edit": "Edit",
+		"delete": "Delete",
+		"noAdmins": "No admins found",
+		"itemsName": "admins",
+		"noPermission": "You do not have permission to perform this action.",
+		"errors": {
+			"nameRequired": "Name is required",
+			"emailRequired": "Email is required",
+			"emailInvalid": "Please enter a valid email",
+			"passwordRequired": "Password is required",
+			"passwordMinLength": "Password must be at least 6 characters"
+		},
+		"table": {
+			"name": "Name",
+			"email": "Email",
+			"role": "Role",
+			"permissions": "Permissions",
+			"createdAt": "Created",
+			"actions": "Actions"
+		}
+	},
+	"users": {
+		"title": "Users",
+		"description": "Manage user accounts and permissions.",
+		"user": "User",
+		"username": "Username",
+		"email": "Email",
+		"influencer": "Influencer",
+		"noUsers": "No users found",
+		"noSearchResults": "No users found matching your search",
+		"searchPlaceholder": "Search users by name, username, or email...",
+		"forSearch": "for search",
+		"statusUpdated": "Status Updated",
+		"influencerStatusUpdated": "User influencer status has been updated",
+		"failedToUpdateStatus": "Failed to update influencer status",
+		"itemsName": "Users",
+		"table": {
+			"name": "Name",
+			"email": "Email",
+			"role": "Role",
+			"status": "Status",
+			"createdAt": "Created",
+			"actions": "Actions"
+		}
+	},
+	"userDetail": {
+		"invalidId": "Please pass a correct numeric id of the user",
+		"loadError": "Failed to load user details",
+		"noData": "No user data available",
+		"influencer": "Influencer",
+		"balance": "Balance",
+		"availableBalance": "Available",
+		"lockedBalance": "Locked",
+		"sendMessage": "Send Message",
+		"addresses": "Addresses",
+		"userAddresses": "User Addresses",
+		"userAddressesDescription": "List of all addresses associated with this user",
+		"noAddresses": "No addresses found for this user",
+		"primary": "Primary",
+		"table": {
+			"recipient": "Recipient",
+			"address": "Address",
+			"phone": "Phone",
+			"status": "Status",
+			"primary": "Primary"
+		},
+		"tabs": {
+			"products": "Products",
+			"sales": "Sales",
+			"subscription": "Subscription",
+			"withdrawal": "Withdrawal Requests",
+			"productsContent": "User products will be displayed here",
+			"salesContent": "User sales will be displayed here",
+			"subscriptionContent": "User subscription details will be displayed here",
+			"withdrawalContent": "User withdrawal requests will be displayed here"
+		}
+	},
+	"products": {
+		"title": "Products",
+		"description": "Manage product listings and inventory.",
+		"product": "Product",
+		"seller": "Seller",
+		"category": "Category",
+		"price": "Price",
+		"condition": "Condition",
+		"status": "Status",
+		"premium": "Premium",
+		"createdAt": "Created",
+		"actions": "Actions",
+		"auction": "Auction",
+		"noProducts": "No products found",
+		"itemsName": "products",
+		"openActions": "Open actions",
+		"editProduct": "Edit Product",
+		"editProductDescription": "Update product settings and preferences.",
+		"premiumStatus": "Premium Status",
+		"premiumStatusDescription": "Mark this product as premium to give it special visibility.",
+		"addProduct": "Add Product",
+		"addDescription": "Create a new product listing.",
+		"editOtherDetails": "Edit Other Details",
+		"featuredStatus": "Featured Status",
+		"featuredStatusDescription": "Mark this product as featured to give it special visibility.",
+		"loadError": "Failed to load products",
+		"sizeMeasurements": "Size Measurements",
+		"sizeMeasurementsDescription": "Detailed measurements for",
+		"size": "Size",
+		"height": "Height",
+		"chest": "Chest",
+		"waist": "Waist",
+		"hips": "Hips",
+		"basePrice": "Base Price",
+		"highestBid": "Highest Bid",
+		"featured": "Featured",
+		"itemNames": "products",
+		"conditions": {
+			"new": "New",
+			"like_new": "Like New",
+			"excellent": "Excellent",
+			"very_good": "Very Good",
+			"good": "Good",
+			"fair": "Fair",
+			"poor": "Poor",
+			"used": "Used"
+		},
+		"statuses": {
+			"draft": "Draft",
+			"pending_approval": "Pending Approval",
+			"live": "Live",
+			"auction_ended": "Auction Ended",
+			"sold": "Sold",
+			"archived": "Archived"
+		},
+		"table": {
+			"image": "Image",
+			"title": "Title",
+			"category": "Category",
+			"size": "Size",
+			"color": "Color",
+			"condition": "Condition",
+			"price": "Price",
+			"type": "Type",
+			"status": "Status",
+			"created": "Created"
+		}
+	},
+	"orders": {
+		"title": "Orders",
+		"description": "Manage customer orders and track their status.",
+		"noOrders": "No orders found",
+		"itemNames": "orders",
+		"updateOrder": "Update Order",
+		"updateOrderDescription": "Update the status and shipping information for order",
+		"loading-error": "Error loading orders",
+		"table": {
+			"orderId": "Order ID",
+			"buyerId": "Buyer ID",
+			"total": "Total",
+			"status": "Status",
+			"paymentStatus": "Payment Status",
+			"shippingCost": "Shipping Cost",
+			"createdAt": "Created At"
+		},
+		"status": {
+			"pending": "Pending",
+			"processingPayment": "Processing Payment",
+			"placed": "Placed",
+			"processing": "Processing",
+			"shipped": "Shipped",
+			"canceled": "Canceled",
+			"onHold": "On Hold",
+			"completed": "Completed",
+			"unknown": "Unknown"
+		},
+		"paymentStatus": {
+			"processing": "Processing",
+			"paid": "Paid",
+			"failed": "Failed",
+			"refunded": "Refunded",
+			"unpaid": "Unpaid",
+			"unknown": "Unknown"
+		},
+		"form": {
+			"status": {
+				"label": "Order Status",
+				"placeholder": "Select order status",
+				"pending": "Pending",
+				"processingPayment": "Processing Payment",
+				"placed": "Placed",
+				"processing": "Processing",
+				"shipped": "Shipped",
+				"canceled": "Canceled",
+				"onHold": "On Hold",
+				"completed": "Completed"
+			},
+			"paymentStatus": {
+				"label": "Payment Status",
+				"placeholder": "Select payment status",
+				"processing": "Processing",
+				"paid": "Paid",
+				"failed": "Failed",
+				"refunded": "Refunded",
+				"unpaid": "Unpaid"
+			},
+			"shippingCarrier": {
+				"label": "Shipping Carrier",
+				"placeholder": "Enter shipping carrier (e.g., FedEx, UPS, DHL)"
+			},
+			"trackingUrl": {
+				"label": "Tracking URL",
+				"placeholder": "Enter shipment tracking URL"
+			}
+		}
+	},
+	"sales": {
+		"loadError": "Failed to load sales data",
+		"noSales": "No sales found for this user",
+		"itemNames": "sales",
+		"filters": {
+			"title": "Filters",
+			"status": {
+				"placeholder": "All statuses",
+				"all": "All statuses"
+			}
+		},
+		"status": {
+			"pending": "Pending",
+			"processing": "Processing",
+			"pendingClearance": "Pending Clearance",
+			"succeeded": "Succeeded",
+			"failed": "Failed",
+			"paymentFailed": "Payment Failed",
+			"cancelled": "Cancelled",
+			"refunded": "Refunded",
+			"rejected": "Rejected"
+		},
+		"table": {
+			"id": "ID",
+			"orderId": "Order ID",
+			"productId": "Product ID",
+			"userId": "User ID",
+			"amount": "Amount",
+			"status": "Status",
+			"created": "Created",
+			"actions": "Actions"
+		}
+	},
+	"withdrawals": {
+		"loadError": "Failed to load withdrawal requests",
+		"noWithdrawals": "No withdrawal requests found",
+		"itemNames": "withdrawal requests",
+		"filters": {
+			"title": "Filters",
+			"status": {
+				"placeholder": "All statuses",
+				"all": "All statuses"
+			}
+		},
+		"status": {
+			"pending": "Pending",
+			"processing": "Processing",
+			"pendingClearance": "Pending Clearance",
+			"succeeded": "Succeeded",
+			"failed": "Failed",
+			"paymentFailed": "Payment Failed",
+			"cancelled": "Cancelled",
+			"refunded": "Refunded",
+			"rejected": "Rejected"
+		},
+		"table": {
+			"amount": "Amount",
+			"status": "Status",
+			"created": "Created"
+		}
+	},
+	"subscriptions": {
+		"title": "Subscriptions",
+		"description": "Manage user subscriptions and billing.",
+		"id": "ID",
+		"user": "User",
+		"userId": "User ID",
+		"plan": "Plan",
+		"payment": "Payment",
+		"listings": "Listings",
+		"created": "Created",
+		"status": "Status",
+		"paymentStatus": "Payment Status",
+		"listingsRemaining": "Listings Remaining",
+		"auctions": "Auctions",
+		"featured": "Featured",
+		"premium": "Premium",
+		"nextRenewal": "Next Renewal",
+		"createdAt": "Created",
+		"noSubscriptions": "No subscriptions found",
+		"comingSoon": "Subscription management features will be added here.",
+		"errorLoading": "Error loading subscriptions",
+		"showing": "Showing",
+		"of": "of",
+		"subscriptions": "subscriptions",
+		"page": "Page",
+		"unlimited": "Unlimited",
+		"itemsName": "subscriptions"
+	},
+	"storeConfiguration": {
+		"title": "Store Configuration",
+		"description": "View and manage your store settings and configuration.",
+		"loadError": "Failed to load store configuration",
+		"noData": "No store configuration data available",
+		"updateSuccess": "Store configuration updated successfully",
+		"auctionCommission": "Auction Commission",
+		"auctionCommissionDescription": "Percentage commission charged on auction sales",
+		"deliveryFee": "Delivery Fee",
+		"deliveryFeeDescription": "Standard delivery fee charged to customers",
+		"withdrawalLimits": "Withdrawal Limits",
+		"withdrawalLimitsDescription": "Set minimum and maximum withdrawal amounts for your store.",
+		"minimumWithdrawalAmount": "Minimum Withdrawal Amount",
+		"maximumWithdrawalAmount": "Maximum Withdrawal Amount",
+		"banners": "Store Banners",
+		"bannersDescription": "Active banners displayed in your store",
+		"banner": "Banner",
+		"imageLoadError": "Failed to load image",
+		"noBanners": "No banners configured",
+		"addBanner": "Add Banner",
+		"addBannerDescription": "Upload a new banner image and set its link URL",
+		"desktopBanners": "Desktop Banners",
+		"mobileBanners": "Mobile Banners",
+		"desktopBanner": "Desktop Banner",
+		"mobileBanner": "Mobile Banner",
+		"desktopBannersDescription": "Banners displayed on desktop and larger screens",
+		"mobileBannersDescription": "Banners displayed on mobile and smaller screens",
+		"updateBannerOrder": "Update Banner Order",
+		"form": {
+			"image": {
+				"label": "Banner Image",
+				"selected": "Selected"
+			},
+			"linkUrl": {
+				"label": "Link URL",
+				"placeholder": "Enter the URL this banner should link to"
+			}
+		},
+		"table": {
+			"banner": "Banner",
+			"image": "Image",
+			"linkUrl": "Link URL",
+			"actions": "Actions",
+			"visit": "Visit"
+		}
+	},
+	"brands": {
+		"title": "Brands",
+		"description": "Manage brands available for products.",
+		"addBrand": "Add Brand",
+		"addBrandDescription": "Create a new brand with name and image",
+		"editBrand": "Edit Brand",
+		"editBrandDescription": "Update the brand name",
+		"deleteBrand": "Delete Brand",
+		"deleteBrandConfirmation": "Are you sure you want to delete this brand? This action cannot be undone.",
+		"name": "Name",
+		"newName": "New Brand Name",
+		"namePlaceholder": "Enter brand name",
+		"image": "Brand Image",
+		"uploadImage": "Click to upload brand image",
+		"actions": "Actions",
+		"edit": "Edit",
+		"delete": "Delete",
+		"noBrands": "No brands found"
+	},
+	"categories": {
+		"title": "Categories & Subcategories",
+		"description": "Manage product categories and their subcategories.",
+		"addCategory": "Add Category",
+		"addCategoryDescription": "Create a new product category",
+		"editCategory": "Edit Category",
+		"editCategoryDescription": "Update the category name",
+		"deleteCategory": "Delete Category",
+		"deleteCategoryConfirmation": "Are you sure you want to delete this category? This action cannot be undone.",
+		"deleteWarning": "Warning: This will also delete all subcategories in this category.",
+		"category": "Category",
+		"name": "Name",
+		"newName": "New Category Name",
+		"namePlaceholder": "Enter category name",
+		"subcategories": "Subcategories",
+		"noSubcategories": "No subcategories",
+		"actions": "Actions",
+		"edit": "Edit",
+		"delete": "Delete",
+		"noCategories": "No categories found"
+	},
+	"subcategories": {
+		"addSubcategory": "Add Subcategory",
+		"addSubcategoryDescription": "Create a new subcategory under a category",
+		"editSubcategory": "Edit Subcategory",
+		"editSubcategoryDescription": "Update the subcategory name",
+		"deleteSubcategory": "Delete Subcategory",
+		"deleteSubcategoryConfirmation": "Are you sure you want to delete this subcategory? This action cannot be undone.",
+		"category": "Category",
+		"selectCategory": "Select a category",
+		"name": "Name",
+		"newName": "New Subcategory Name",
+		"namePlaceholder": "Enter subcategory name",
+		"inCategory": "in",
+		"icon": "Icon",
+		"selectIcon": "Select Icon",
+		"currentName": "Current Name",
+		"newNamePlaceholder": "Enter new subcategory name"
+	},
+	"subscriptionPlans": {
+		"title": "Subscription Plans",
+		"description": "Manage subscription plans and their features.",
+		"editPlan": "Edit Subscription Plan",
+		"editPlanDescription": "Update subscription plan details and features",
+		"plan": "Plan",
+		"subtitle": "Subtitle",
+		"price": "Price",
+		"listingsLimit": "Listings Limit",
+		"auctionsAllowed": "Auctions Allowed",
+		"featuredProductsAllowed": "Featured Products Allowed",
+		"premiumProductsAllowed": "Premium Products Allowed",
+		"stripePriceId": "Stripe Price ID",
+		"features": "Features",
+		"auctions": "Auctions",
+		"featured": "Featured",
+		"premium": "Premium",
+		"actions": "Actions",
+		"edit": "Edit",
+		"noPlans": "No subscription plans found"
+	},
+	"auditLogs": {
+		"admin": "Admin",
+		"table": "Table",
+		"heading": "Audit Logs",
+		"operation": "Operation",
+		"executedAt": "Executed At",
+		"actions": "Actions",
+		"showDiff": "Show Diff",
+		"recordId": "Record ID",
+		"selectAdmin": "Select Admin",
+		"selectTable": "Select Table",
+		"selectOperation": "Select Operation",
+		"timeFrame": "Time Frame",
+		"itemsName": "Audit Logs",
+		"operations": {
+			"CREATE": "Create",
+			"UPDATE": "Update",
+			"DELETE": "Delete"
+		},
+		"timeFrames": {
+			"today": "Today",
+			"yesterday": "Yesterday",
+			"last-week": "Last Week",
+			"last-month": "Last Month"
+		},
+		"tables": {
+			"admins": "Admins",
+			"users": "Users",
+			"categories": "Categories",
+			"subcategories": "Subcategories",
+			"brands": "Brands",
+			"products": "Products",
+			"colors": "Colors",
+			"subscription_plans": "Subscription Plans",
+			"orders": "Orders",
+			"reviews": "Reviews"
+		},
+		"diffModal": {
+			"title": "Audit Log Details",
+			"recordId": "Record ID",
+			"beforeValue": "Before",
+			"afterValue": "After",
+			"noDataBefore": "No data (new record)",
+			"noDataAfter": "No data (deleted record)",
+			"close": "Close"
+		},
+		"noLogs": "No recent activity to display.",
+		"loadingLogs": "Loading recent activity..."
+	},
+	"auth": {
+		"login": "Login",
+		"email": "Email",
+		"password": "Password",
+		"loginButton": "Sign In",
+		"invalidCredentials": "Invalid email or password",
+		"loginError": "An error occurred during login"
+	},
+	"colors": {
+		"title": "Colors",
+		"description": "Manage colors available for products.",
+		"addColorDescription": "Add a new color to your store configuration.",
+		"colorCreated": "Color created",
+		"colorCreatedDescription": "The color has been created successfully.",
+		"addColor": "Add Color",
+		"noResultsFound": "No colors found matching your search",
+		"noColors": "No colors available",
+		"name": "Name",
+		"color": "Color",
+		"hexCode": "Hex Code",
+		"searchPlaceholder": "Search colors...",
+		"errorLoading": "Error loading colors",
+		"editColor": "Edit Color",
+		"editColorDescription": "Update the color information.",
+		"namePlaceholder": "Enter color name",
+		"editNamePlaceholder": "Enter color name",
+		"preview": "Preview",
+		"colorUpdated": "Color updated",
+		"colorUpdatedDescription": "The color has been updated successfully.",
+		"nameRequired": "Name is required",
+		"deleteColor": "Delete Color",
+		"deleteColorConfirmation": "Are you sure you want to delete this color?",
+		"deleteColorWarning": "This action cannot be undone.",
+		"colorDeleted": "Color deleted",
+		"colorDeletedDescription": "The color has been deleted successfully."
+	},
+	"promotionCodes": {
+		"title": "Promotion Codes",
+		"description": "Manage promotion codes and discount coupons for your store.",
+		"noPromotionCodes": "No promotion codes found",
+		"summary": "Showing {total} promotion codes ({active} active, {expired} expired)",
+		"addPromotionCode": "Add Promotion Code",
+		"addPromotionCodeDescription": "Create a new promotion code for an existing coupon.",
+		"createSuccess": "Promotion code created successfully",
+		"updateSuccess": "Promotion code updated successfully",
+		"table": {
+			"code": "Code",
+			"coupon": "Coupon",
+			"discount": "Discount",
+			"usage": "Usage",
+			"status": "Status",
+			"created": "Created",
+			"expires": "Expires",
+			"redeemed": "redeemed",
+			"noExpiry": "No expiry",
+			"active": "Activo",
+			"toggleActive": "Alternar estado activo"
+		},
+		"status": {
+			"active": "Active",
+			"inactive": "Inactive",
+			"expired": "Expired",
+			"exhausted": "Exhausted"
+		},
+		"filters": {
+			"title": "Filters",
+			"status": {
+				"label": "Status",
+				"placeholder": "All statuses",
+				"all": "All statuses"
+			},
+			"code": {
+				"label": "Promotion Code",
+				"placeholder": "Enter promotion code..."
+			},
+			"coupon": {
+				"label": "Coupon ID",
+				"placeholder": "Enter coupon ID..."
+			},
+			"createdAfter": {
+				"label": "Created After"
+			},
+			"createdBefore": {
+				"label": "Created Before"
+			}
+		},
+		"form": {
+			"coupon": {
+				"label": "Coupon ID",
+				"placeholder": "Enter the coupon ID..."
+			},
+			"code": {
+				"label": "Promotion Code",
+				"placeholder": "Enter custom code or leave blank for auto-generation",
+				"note": "Leave blank to auto-generate a unique code"
+			},
+			"active": {
+				"label": "Status"
+			},
+			"appliesTo": {
+				"label": "Applies To",
+				"all": "All",
+				"products": "Products",
+				"subscriptions": "Subscriptions"
+			},
+			"maxRedemptions": {
+				"label": "Max Redemptions",
+				"placeholder": "Enter maximum number of uses",
+				"note": "Leave blank for unlimited uses"
+			},
+			"expiresAt": {
+				"label": "Expires At",
+				"note": "Leave blank for no expiration"
+			},
+			"firstTimeTransaction": {
+				"label": "First-time customers only"
+			},
+			"minimumAmount": {
+				"label": "Minimum Amount ($)",
+				"placeholder": "Enter minimum order amount",
+				"note": "Minimum order amount required to use this code"
+			}
+		}
+	},
+	"coupons": {
+		"title": "Coupons",
+		"description": "Manage discount coupons for your store.",
+		"noCoupons": "No coupons found",
+		"summary": "Showing {total} coupons ({active} active, {inactive} inactive)",
+		"addCoupon": "Add Coupon",
+		"addCouponDescription": "Create a new discount coupon for your store.",
+		"updateCoupon": "Update Coupon",
+		"updateCouponDescription": "Update the coupon name. Other properties cannot be modified.",
+		"updateSuccess": "Coupon updated successfully",
+
+		"table": {
+			"id": "ID",
+			"name": "Name",
+			"discount": "Discount",
+			"duration": "Duration",
+			"usage": "Usage",
+			"status": "Status",
+			"created": "Created",
+			"redeemed": "redeemed"
+		},
+		"filters": {
+			"title": "Filters",
+			"createdAfter": {
+				"label": "Created After"
+			},
+			"createdBefore": {
+				"label": "Created Before"
+			}
+		},
+		"form": {
+			"id": {
+				"label": "Coupon ID",
+				"placeholder": "Enter unique coupon ID...",
+				"readOnlyNote": "Coupon ID cannot be changed"
+			},
+			"name": {
+				"label": "Coupon Name",
+				"placeholder": "Enter coupon name..."
+			},
+			"discountType": {
+				"label": "Discount Type",
+				"placeholder": "Select discount type",
+				"percent": "Percentage",
+				"amount": "Fixed Amount"
+			},
+			"amount": {
+				"labelPercent": "Percentage (%)",
+				"labelAmount": "Amount ($)",
+				"placeholderPercent": "Enter percentage (1-100)",
+				"placeholderAmount": "Enter amount in dollars"
+			},
+			"duration": {
+				"label": "Duration",
+				"placeholder": "Select duration",
+				"once": "Once",
+				"repeating": "Repeating",
+				"forever": "Forever"
+			},
+			"durationInMonths": {
+				"label": "Duration (Months)",
+				"placeholder": "Enter number of months (1-12)"
+			},
+			"currentDiscount": {
+				"label": "Current Discount",
+				"note": "Discount amount and type cannot be changed"
+			},
+			"currentDuration": {
+				"label": "Current Duration",
+				"note": "Duration settings cannot be changed"
+			}
+		}
+	},
+	"pagination": {
+		"prev": "Previous",
+		"next": "Next",
+		"page": "Page",
+		"showing": "Showing",
+		"of": "of",
+		"to": "to",
+		"total": "total"
+	}
+}
