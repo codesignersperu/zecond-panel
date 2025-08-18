@@ -695,7 +695,7 @@
 				"label": "Solo para clientes primerizos"
 			},
 			"minimumAmount": {
-				"label": "Monto mínimo ($)",
+				"label": "Monto mínimo (S/)",
 				"placeholder": "Introduce el monto mínimo del pedido",
 				"note": "Monto mínimo requerido para usar este código"
 			}
@@ -748,9 +748,9 @@
 			},
 			"amount": {
 				"labelPercent": "Porcentaje (%)",
-				"labelAmount": "Cantidad ($)",
+				"labelAmount": "Cantidad (S/)",
 				"placeholderPercent": "Introduce el porcentaje (1-100)",
-				"placeholderAmount": "Introduce la cantidad en dólares"
+				"placeholderAmount": "Introduce la cantidad en soles"
 			},
 			"duration": {
 				"label": "Duración",

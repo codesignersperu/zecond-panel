@@ -37,6 +37,7 @@ import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
 import React from 'react'
+import { formatCurrency } from '@/lib/utils'
 
 // Types & Interfaces
 interface Order {
@@ -162,12 +163,6 @@ const useUpdateOrder = () => {
 			})
 		},
 	})
-}
-
-// Util Functions
-const formatCurrency = (amount: number | undefined) => {
-	if (amount === undefined || amount === null) return 'N/A'
-	return `$${amount.toFixed(2)}`
 }
 
 const formatDate = (dateString: string | undefined) => {

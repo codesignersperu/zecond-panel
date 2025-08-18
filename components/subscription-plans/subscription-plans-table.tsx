@@ -17,6 +17,7 @@ import { Badge } from '@/components/ui/badge'
 import { Edit, Loader2, Check, X } from 'lucide-react'
 import { Alert, AlertDescription } from '@/components/ui/alert'
 import { EditSubscriptionPlanModal } from './edit-subscription-plan-modal'
+import { formatCurrency } from '@/lib/utils'
 
 interface SubscriptionPlansTableProps {}
 
@@ -35,7 +36,7 @@ export function SubscriptionPlansTable({}: SubscriptionPlansTableProps) {
 
 	const formatPrice = (price: number | undefined) => {
 		if (price === undefined || price === null) return 'N/A'
-		return price === 0 ? 'Free' : `$${price}`
+		return price === 0 ? 'Free' : formatCurrency(price)
 	}
 
 	const formatListingsLimit = (limit: number | undefined) => {

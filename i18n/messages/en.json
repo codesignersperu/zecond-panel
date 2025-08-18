@@ -696,7 +696,7 @@
 				"label": "First-time customers only"
 			},
 			"minimumAmount": {
-				"label": "Minimum Amount ($)",
+				"label": "Minimum Amount (S/)",
 				"placeholder": "Enter minimum order amount",
 				"note": "Minimum order amount required to use this code"
 			}
@@ -750,9 +750,9 @@
 			},
 			"amount": {
 				"labelPercent": "Percentage (%)",
-				"labelAmount": "Amount ($)",
+				"labelAmount": "Amount (S/)",
 				"placeholderPercent": "Enter percentage (1-100)",
-				"placeholderAmount": "Enter amount in dollars"
+				"placeholderAmount": "Enter amount in soles"
 			},
 			"duration": {
 				"label": "Duration",

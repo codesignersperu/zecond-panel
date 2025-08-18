@@ -4,7 +4,7 @@ import { use, useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import { useTranslations } from 'next-intl'
 import { fetchWithNgrok } from '@/lib/api/fetch-utils'
-import { imageUrl } from '@/lib/utils'
+import { formatCurrency, imageUrl } from '@/lib/utils'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
@@ -110,11 +110,6 @@ const useUser = (id: string) => {
 		},
 		enabled: !isNaN(parseInt(id, 10)),
 	})
-}
-
-// Utility functions
-const formatCurrency = (amount: number) => {
-	return `$${amount.toFixed(2)}`
 }
 
 const formatDate = (dateString: string) => {

@@ -17,7 +17,7 @@ import { Badge } from '@/components/ui/badge'
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar'
 import { ChevronLeft, ChevronRight, Loader2, MoreHorizontal, Plus } from 'lucide-react'
 import { Alert, AlertDescription } from '@/components/ui/alert'
-import { imageUrl } from '@/lib/utils'
+import { formatCurrency, imageUrl } from '@/lib/utils'
 import { ProductActionsModal } from './product-actions-modal'
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
@@ -237,7 +237,9 @@ export function ProductsTable() {
 										</div>
 									</TableCell>
 									<TableCell>
-										<p className='font-medium'>${product.price}</p>
+										<p className='font-medium'>
+											{formatCurrency(product.price)}
+										</p>
 										{product.size && (
 											<p className='text-xs text-muted-foreground'>
 												Size: {product.size}

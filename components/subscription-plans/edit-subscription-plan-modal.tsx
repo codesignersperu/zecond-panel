@@ -22,6 +22,7 @@ import { Textarea } from '@/components/ui/textarea'
 import { Switch } from '@/components/ui/switch'
 import { Alert, AlertDescription } from '@/components/ui/alert'
 import { AlertCircle, Loader2, Plus, Trash2 } from 'lucide-react'
+import { formatCurrency } from '@/lib/utils'
 
 const planFeatureSchema = z.object({
 	heading: z.string().min(1, 'Feature heading is required'),
@@ -168,7 +169,7 @@ export function EditSubscriptionPlanModal({
 					<div>
 						<p className='font-medium'>{plan.title}</p>
 						<p className='text-sm text-muted-foreground'>
-							Plan ID: {plan.planId} • ${plan.price}
+							Plan ID: {plan.planId} • {formatCurrency(plan.price)}
 						</p>
 					</div>
 				</div>

@@ -943,7 +943,7 @@ function UpdateCouponModal({
 								<p className='text-sm font-medium'>
 									{coupon.percentOff
 										? `${coupon.percentOff}% ${t('coupons.form.discountType.percent')}`
-										: `$${(coupon.amountOff || 0) / 100} ${t('coupons.form.discountType.amount')}`}
+										: `S/ ${(coupon.amountOff || 0) / 100} ${t('coupons.form.discountType.amount')}`}
 								</p>
 								<p className='mt-1 text-xs text-muted-foreground'>
 									{t('coupons.form.currentDiscount.note')}
@@ -1410,7 +1410,7 @@ function PromotionCodesTable({ filters }: { filters: PromotionCodeFilters }) {
 									<TableCell>
 										{code.coupon.percentOff
 											? `${code.coupon.percentOff}%`
-											: `$${(code.coupon.amountOff || 0) / 100}`}
+											: `S/ ${(code.coupon.amountOff || 0) / 100}`}
 									</TableCell>
 									<TableCell>
 										<div>
@@ -1578,7 +1578,7 @@ function CouponsTable({ filters }: { filters: CouponFilters }) {
 										<TableCell>
 											{coupon.percentOff
 												? `${coupon.percentOff}%`
-												: `$${(coupon.amountOff || 0) / 100}`}
+												: `S/ ${(coupon.amountOff || 0) / 100}`}
 										</TableCell>
 										<TableCell>
 											<div>

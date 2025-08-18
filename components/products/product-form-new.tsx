@@ -479,7 +479,7 @@ const ProductFormNew = forwardRef<ProductFormRef, ProductFormProps>((props, ref)
 				<div className='rounded-xl border px-3 py-2'>
 					<Label className='text-sm text-muted-foreground'>Price</Label>
 					<div className='mt-1 flex items-center'>
-						<span className='mr-2 text-lg font-semibold'>$</span>
+						<span className='mr-2 text-lg font-semibold'>S/</span>
 						<Input
 							type='number'
 							className='border-0 px-0 focus-visible:ring-0'

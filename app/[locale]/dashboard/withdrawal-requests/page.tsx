@@ -23,6 +23,7 @@ import {
 } from '@/components/ui/table'
 import { Loader2, Filter, X, ChevronLeft, ChevronRight } from 'lucide-react'
 import { Alert, AlertDescription } from '@/components/ui/alert'
+import { formatCurrency } from '@/lib/utils'
 
 // Types & Interfaces
 interface Transaction {
@@ -151,11 +152,6 @@ export function WithdrawalActions({ id }: { id: number }) {
 			</Button>
 		</div>
 	)
-}
-
-// Utility functions
-const formatCurrency = (amount: number) => {
-	return `$${amount.toFixed(2)}`
 }
 
 const formatDate = (dateString: string) => {

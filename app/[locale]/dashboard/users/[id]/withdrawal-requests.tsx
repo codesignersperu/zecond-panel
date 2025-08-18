@@ -23,6 +23,7 @@ import {
 } from '@/components/ui/table'
 import { Loader2, Filter, X } from 'lucide-react'
 import { Alert, AlertDescription } from '@/components/ui/alert'
+import { formatCurrency } from '@/lib/utils'
 
 // Types & Interfaces
 interface Transaction {
@@ -100,11 +101,6 @@ const useUserWithdrawals = (
 		},
 		enabled: !isNaN(parseInt(userId, 10)),
 	})
-}
-
-// Utility functions
-const formatCurrency = (amount: number) => {
-	return `$${amount.toFixed(2)}`
 }
 
 const formatDate = (dateString: string) => {

@@ -70,12 +70,6 @@ export function ProductActionsModal({ isOpen, onClose, product }: ProductActions
 			formData.append('isFeatured', data.isFeatured.toString())
 			formData.append('status', data.status)
 
-			// Log the FormData contents for debugging
-			console.log('Sending FormData with contents:')
-			for (const [key, value] of formData.entries()) {
-				console.log(`${key}: ${value}`)
-			}
-
 			return updateProduct(product.id, formData)
 		},
 		onSuccess: () => {
@@ -196,7 +190,7 @@ export function ProductActionsModal({ isOpen, onClose, product }: ProductActions
 									{product.title}
 								</p>
 								<p className='text-xs text-muted-foreground'>
-									ID: {product.id} • ${product.price}
+									ID: {product.id} • S/ {product.price}
 								</p>
 							</div>
 						</div>
