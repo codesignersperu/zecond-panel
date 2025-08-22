@@ -101,8 +101,7 @@ const useUpdateStoreConfig = () => {
 			for (const [key, value] of dataArr) {
 				if ((key === 'banners' || key === 'mobileBanners') && Array.isArray(value)) {
 					formData.append(key, JSON.stringify(value))
-				}
-				if (key === 'images' && Array.isArray(value)) {
+				} else if (key === 'images' && Array.isArray(value)) {
 					;(value as File[]).forEach((image, index) => {
 						formData.append(key, image)
 					})
